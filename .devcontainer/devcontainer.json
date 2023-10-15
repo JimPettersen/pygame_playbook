@@ -1,0 +1,20 @@
+{
+    "name": "Python with Pygame",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "ms-python.python",         
+        "ms-python.vscode-pylance", 
+        "ms-toolsai.jupyter",        
+        "magicstack.magicpython",    
+        "ms-python.vscode-pylance",  
+        "njpwerner.autodocstring"    
+    ],
+    "postCreateCommand": "echo 'CodeSpace is ready!'"
+}
+
